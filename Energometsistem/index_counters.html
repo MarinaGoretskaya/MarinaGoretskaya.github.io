@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=UTF-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Энергометсистем</title>
+
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+
+	<link rel="stylesheet" href="css/stylesheet.css">	
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+
+</head>
+<body>
+
+<!--**********HEADER**********-->
+	<header>
+		<div class="header_bg">
+		<a name="top"></a>
+
+		<!--*****Header top*****-->
+		<div class="header__wrapper-top">
+			<div class="header__header-top"><p>АСКУЭ</p><p>Электронные счетчики электроэнергии</p><p>Проектирование электроснабжения</p><p>IP TV</p>
+			</div>
+		</div>
+
+		<!--*****Header bottom*****-->
+		<div class="header__container clearfix">		
+			<div class="logo">
+			</div>				
+
+				<!--*****Phone******-->
+				<div class="phone-block">
+						<div class="phone-us phone">
+							<span class="icon-phone-us"><i class="fa fa-phone fa-2x"></i></span>	
+						</div>
+						<div class="phone__contacts">
+							+37529-336-41-01 (Velcom)<br>
+							+37517 336-41-27<br>
+							+37517 336-41-26<br>
+							+37517 336-41-26 (факс)
+						</div>					
+				</div>
+
+				<!--*****Order*****-->
+				<div class="order">
+					<a href="#" id="button-order">Заказать</a>
+
+						<!--*****Form*****-->
+						<form id="modal__form">
+							<span id="modal__close"><i class="fa fa-window-close fa-2x"></i></i></span>
+								<div class="form__header">
+									<h3>Оформление заказа</h3>
+								</div>
+								<div class="form__content">
+									<div class="form-group">
+										<label class="label_form-group" for="textinput">Имя:</label>
+										<div class="input_form-group">
+											<i class="fa fa-user"></i>
+											<input class="textinput" name="textinput" type="text" placeholder="Введите Ваше имя">
+										</div>
+									</div>
+
+									<!--E-mail-->
+									<div class="form-group">
+										<label class="label_form-group" for="textinput">Ваш email:</label>
+										<div class="input_form-group">
+											<i class="fa fa-envelope"></i>
+											<input class="textinput" name="textinput" type="text" placeholder="Введите адрес Вашей почты">
+										</div>
+									</div>
+
+									<!--Telephone-->
+									<div class="form-group">
+										<label class="label_form-group" for="textinput">Ваш телефон:</label>
+										<div class="input_form-group">
+											<i class="fa fa-phone"></i>
+											<input class="textinput" name="textinput" type="tel" placeholder="Введите номер телефона">
+										</div>
+									</div>
+
+									<!--Textarea-->
+									<div class="form-group">
+										<label class="label_form-group" for="textarea">Сообщение:</label>
+										<div class="textarea_form-group">
+											<i class="fa fa-pencil-square-o"></i>
+											<textarea class="textarea" name="textarea" type="textarea" placeholder="Текст сообщения..."></textarea>
+										</div>
+									</div>
+
+									<!--Submit-->
+									<div class="form-group form__button-submit">
+										<button class="submit" name="button" type="submit">Отправить</button>
+									</div>
+								</div>
+						</form>
+				</div>
+
+				<div id="overlay"></div><!-- Пoдлoжкa -->
+
+				<!--*****Search-form*****-->
+				<div class="search-form__wrapper">
+					<form class="search-form">
+						<div class="search-form_group">
+							<span class="icon-search"><i class="fa fa-search"></i></span>
+							<input type="textinput" name="search">
+						</div>
+					</form>
+				</div>
+
+				<!--*****Menu*****-->	
+				<div class="menu__wrapper">
+					<a href="#" class="menu-button"><i class="fa fa-bars fa-2x"></i></a>
+
+					<!--Mobile Menu-->
+					<div class="mobile_menu">
+					  <ul id="accordeon" class="accordeon">
+						<li>
+							<a href="index.html" class="link">Главная</a>      
+						</li>
+						<li>
+						<a href="index_counters.html" class="link">Счетчики</a>					     
+					    </li>
+					    <li>
+					      <a href="#" class="link">Пусконаладка</a>
+					      <ul class="submenu">
+					        <li><a href="index_askue.html">АСКУЭ</a></li>
+					        <li><a href="index_project.html">Проектирование</a></li>
+					      </ul>
+					    </li>
+					    <li>
+					      <a href="index_IPTV.html" class="link">IP TV</a>
+					    </li>
+					    <li>
+					      <a href="index_contacts.html" class="link">Контакты</a>
+					    </li>
+					  </ul>
+					</div>
+
+						<div class="menu__container">
+							<ul class="menu__main-menu">
+								<li><a href="index.html">Главная</a></li>
+								<li><a href="index_counters.html" class="active">Счетчики</a>							
+								</li>
+								<li><a href="#">Пусконаладка</a>
+									<ul class="menu__sub-menu">
+										<li><a href="index_askue.html">АСКУЭ</a></li>
+										<li><a href="index_project.html">Проектирование</a></li>			
+									</ul>
+								</li>    
+								<li><a href="index_IPTV.html">IP TV</a></li>
+								<li><a href="index_contacts.html">Контакты</a></li>
+							</ul>
+						</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+<!--**********CONTENT**********-->
+	<div class="content__wrapper clearfix">
+		<div class="content__container">
+			
+			<!--*****Counters*****-->
+			<div class="h2__wrapper">
+				<h2>Счетчики электроэнергии</h2>					
+			</div>
+
+			<div class="counters__wrapper">
+				<div class="counter">
+					<h4>Электронный счетчик электроэнергии трехфазный MTX3 с&nbsp;GSM</h4>
+					<img src="images/content/counters/count_1.png" alt="counter" title="Счетчик">					
+					<h5>Краткое описание</h5>
+					<p class="count_description">Многофункциональные трехфазные счетчики типа МТХ3 c&nbsp;GSM модемом предназначены для многотарифного учета активной энергии в&nbsp;одном направлении и&nbsp;реактивной энергии в&nbsp;двух направлениях, мониторинга параметров измерительной сети на объектах энергетики, промышленности и&nbsp;коммунально-бытовой сфере в&nbsp;составе автоматизированных системах технического и&nbsp;коммерческого учета (АСКУЭ) и&nbsp;отдельно (в&nbsp;счетчик установлены часы реального времени с&nbsp;питанием от батареи).</p>
+				</div>
+				<div class="counter">
+					<h4>Электронный счетчик электроэнергии трехфазный MTX3 со&nbsp;встроенным GSM-модемом и&nbsp;модулем RF (радиомодем)</h4>
+					<img src="images/content/counters/count_2.png" alt="counter" title="Счетчик">
+					<h5>Краткое описание</h5>
+					<p class="count_description">Многофункциональные трехфазные счетчики типа&nbsp;МТХ3 предназначены для многотарифного учета активной энергии в&nbsp;одном направлении и&nbsp;реактивной энергии в&nbsp;двух направлениях, мониторинга параметров измерительной сети на объектах энергетики, промышленности и&nbsp;коммунально-бытовой сфере в&nbsp;составе автоматизированных системах технического и&nbsp;коммерческого учета (АСКУЭ) и&nbsp;отдельно (в&nbsp;счетчик установлены часы реального времени с питанием от&nbsp;батареи).</p>
+				</div>
+				<div class="counter">
+					<h4>Электронный счетчик электроэнергии трехфазный MTX3R</h4>
+					<img src="images/content/counters/count_3.png" alt="counter" title="Счетчик">
+					<h5>Краткое описание</h5>
+					<p class="count_description">Многофункциональные трехфазные счетчики типа МТХ3 предназначены для многотарифного учета активной энергии в&nbsp;одном направлении и&nbsp;реактивной энергии в&nbsp;двух направлениях, мониторинга параметров измерительной сети на объектах энергетики, промышленности и&nbsp;коммунально-бытовой сфере в&nbsp;составе автоматизированных системах технического и&nbsp;коммерческого учета (АСКУЭ) и&nbsp;отдельно (в&nbsp;счетчик установлены часы реального времени с&nbsp;питанием от&nbsp;батареи).</p>
+				</div>
+				<div class="counter">
+					<h4>Электронный счетчик электроэнергии однофазный MTX1</h4>
+					<img src="images/content/counters/count_4.png" alt="counter" title="Счетчик">
+					<h5>Краткое описание</h5>
+					<p class="count_description">Многофункциональные трехфазные счетчики типа МТХ3 предназначены для многотарифного учета активной энергии в&nbsp;одном направлении и&nbsp;реактивной энергии в&nbsp;двух направлениях, мониторинга параметров измерительной сети на объектах энергетики, промышленности и&nbsp;коммунально-бытовой сфере в&nbsp;составе автоматизированных системах технического и&nbsp;коммерческого учета (АСКУЭ) и&nbsp;отдельно (в&nbsp;счетчик установлены часы реального времени с&nbsp;питанием от&nbsp;батареи).</p>
+				</div>
+				<div class="counter">
+					<h4>Электронный счетчик электроэнергии однофазный NP-06 TD.MME.1F.1SM-U</h4>
+					<img src="images/content/counters/count_5.png" alt="counter" title="Счетчик">
+					<h5>Краткое описание</h5>
+					<p class="count_description">Многофункциональные трехфазные счетчики типа МТХ3 предназначены для многотарифного учета активной энергии в&nbsp;одном направлении и&nbsp;реактивной энергии в&nbsp;двух направлениях, мониторинга параметров измерительной сети на объектах энергетики, промышленности и&nbsp;коммунально-бытовой сфере в&nbsp;составе автоматизированных системах технического и&nbsp;коммерческого учета (АСКУЭ) и&nbsp;отдельно (в&nbsp;счетчик установлены часы реального времени с питанием от&nbsp;батареи).</p>
+				</div>
+				<div class="counter">
+					<h4>Электронный счетчик электроэнергии трехфазный NP-06 TD MME.3FD.SMxPD-U</h4>
+					<img src="images/content/counters/count_6.png" alt="counter" title="Счетчик">
+					<h5>Краткое описание</h5>
+					<p class="count_description">Многофункциональные трехфазные счетчики типа МТХ3 предназначены для многотарифного учета активной энергии в&nbsp;одном направлении и&nbsp;реактивной энергии в&nbsp;двух направлениях, мониторинга параметров измерительной сети на объектах энергетики, промышленности и&nbsp;коммунально-бытовой сфере в&nbsp;составе автоматизированных системах технического и&nbsp;коммерческого учета (АСКУЭ) и&nbsp;отдельно (в&nbsp;счетчик установлены часы реального времени с&nbsp;питанием от&nbsp;батареи).</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--**********FOOTER**********-->
+	<footer>
+		<div class="footer-container clearfix">
+			<div class="footer-blocks">
+				<div class="footer-block">
+					<p class="footer-title"><i class="fa fa-map-marker fa-1x"></i> Адрес:</p>
+					<p class="footer-text"> 220089, ул. Железнодорожная, 33 офис 420</p>
+					<p class="footer-title"><i class="fa fa-phone-square fa-1x"></i> Телефоны:</p>
+					<p class="footer-text">+37529 336-41-01 (Velcom)</p>
+					<p class="footer-text">+37517 336-41-27</p>
+					<p class="footer-text">+37517 336-41-26</p>
+					<p class="footer-title"><i class="fa fa-fax 1x"></i> Факс:</p>
+					<p class="footer-text">+37517 336-41-26</p>
+					<p class="footer-title"><i class="fa fa-envelope 1x"></i> E-mail:</p>
+					<p class="footer-text">info@askue.by</p>
+				</div>
+				<div class="footer-block">
+					<p class="footer-title"><i class="fa fa-university fa-1x"></i> Банковские реквизиты:</p>
+					<p class="footer-text">УНП №190708974,<br>
+					ОКПО №37689692,<br>
+					Свидетельство о государственной регистрации<br>№190708974 от 20.04.2006г.</p>
+				</div>
+				<div class="footer-block">
+					<p class="footer-title">Наши услуги:</p>
+					<ul>
+						<li><i class="fa fa-check fa-1x"></i> Проектирование электроснабжения</li>
+						<li><i class="fa fa-check fa-1x"></i> Продажа электронных счетчиков электроэнергии</li>
+						<li><i class="fa fa-check fa-1x"></i> АСКУЭ</li>
+						<li><i class="fa fa-check fa-1x"></i> IP TV</li>
+					</ul>
+				</div>
+			</div>
+			<p class="copyright">@ Goretskaya Marina, 2017</p>
+			<a href="#top" class="to-top"></a>
+		</div>
+	</footer>
+</body>
+</html>
