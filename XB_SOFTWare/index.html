@@ -9,24 +9,102 @@
     <!--<link rel="stylesheet" href="css/stylesheet.css">-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 </head>
 <body>
 
 <div class="wrapper container-flex">
-    <div class="global-settings sticky">
-        <div class="global-settings container-flex">
 
-            <div class="global-settings_bg">
+    <div class="global-settings sticky container-flex">
+        <form class="burger sticky" action="#">
+            <button type="submit"><i class="material-icons md-20">menu</i></button>
+        </form>
 
+        <div class="global-settings_bg">
+            <form class="settings sticky" action="#">
+                <button type="submit"><i class="material-icons md-20">settings</i></button>
+            </form>
+            <div class="glob-set-btm">
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20">layers</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20">people</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20">reorder</i></button>
+                </form>
             </div>
-        </div>
 
+        </div>
     </div>
 
 
-    <div class="sidebar">
-        <div class="title sticky">EasyDoc</div>
+    <div class="sidebar sticky">
+        <div>
+            <div class="title sticky"><p>EasyDoc</p></div>
+
+            <div class="sidebar-menu">
+                <ul class="sidebar-menu__main-menu">
+                    <li>
+                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                        <a href="#" class="active">Overview</a></li>
+                    <li>
+                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                        <a href="#">Installation</a></li>
+                    <li>
+                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                        <a href="#">Configuration</a></li>
+                    <li>
+                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                        <a href="#">Components</a>
+                        <ul class="sidebar-menu__sub-menu">
+                            <li>
+                                <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                                <a href="#">Content</a>
+                                <ul class="sidebar-menu__sub-sub-menu">
+                                    <li>
+                                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                                        <a href="#">Typography</a></li>
+                                    <li>
+                                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                                        <a href="#">Buttons</a></li>
+                                    <li>
+                                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                                        <a href="#">Example of page</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                                <a href="#">Sidebar</a></li>
+                            <li>
+                                <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                                <a href="#">Toolbar</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                        <a href="#">Utillities</a></li>
+                    <li>
+                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                        <a href="#">Api</a></li>
+                    <li>
+                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                        <a href="#">Plugin</a></li>
+                    <li>
+                        <button><i class="material-icons md-20 md-dark">add_box</i></button>
+                        <a href="#">Migration</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sidebar-footer container-flex">
+            <div class="face"><img src="images/44480607_365085787562702_5246272036321361920_n%20(1).png" alt="face"></div>
+            <p>Tatyana Pashkovich</p>
+        </div>
+
     </div>
 
 
@@ -36,14 +114,14 @@
             <!--*****Search-form*****-->
             <div class="search-form__wrapper">
                 <form class="search-form">
-                    <div class="search-form_group">Search
-                        <span class="icon-search"><i class="fa fa-search"></i></span>
-                        <input type="textinput" name="search">
+                    <div class="search-form_group">
+                        <input type="textinput" name="search" placeholder="Search">
+                        <button><span><i class="material-icons md-20 md-dark">search</i></span></button>
                     </div>
                 </form>
             </div>
 
-            <div class="toolbar_buttons">
+            <div class="toolbar_menu">
                 <form action="#">
                     <button type="submit">About</button>
                 </form>
@@ -56,17 +134,82 @@
                 <form action="#">
                     <button type="submit">Download</button>
                 </form>
-
             </div>
 
         </div>
 
-        <div class="toolbar_bg">
+        <div class="toolbar_bottom">
+            <div class="blocks block_1 container-flex">
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">undo</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark md-inactive">redo</i></button>
+                </form>
+                <div class="line"></div>
+            </div>
+            <div class="blocks block_2 container-flex">
+                <div class="font">Roboto</div>
+                <button class="arrow_drop_down" type="submit"><i
+                        class="material-icons md-20 md-dark">arrow_drop_down</i></button>
+                <div class="size">16px</div>
+                <button class="arrow_drop_down" type="submit"><i
+                        class="material-icons md-20 md-dark">arrow_drop_down</i></button>
+                <div class="line"></div>
+            </div>
+            <div class="blocks block_3 container-flex">
+                <button class="text_fields" type="submit"><i class="material-icons md-20 md-dark">text_fields</i>
+                </button>
+                <button class="arrow_drop_down" type="submit"><i
+                        class="material-icons md-20 md-dark">arrow_drop_down</i></button>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_quote</i></button>
+                </form>
+                <div class="line"></div>
+            </div>
+            <div class="blocks block_4 container-flex">
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_bold</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_italic</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_strikethrough</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_underlined</i></button>
+                </form>
+                <div class="line"></div>
+            </div>
+            <div class="blocks block_5 container-flex">
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_align_left</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_align_justify</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_align_center</i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="material-icons md-20 md-dark">format_align_right</i></button>
+                </form>
+                <div class="line"></div>
+            </div>
+            <div class="blocks block_6 container-flex">
+                <form action="#">
+                    <button type="submit"><i class="fas fa-link fa-dark"></i></button>
+                </form>
+                <form action="#">
+                    <button type="submit"><i class="fas fa-eraser fa-dark"></i></button>
+                </form>
+            </div>
+
 
         </div>
 
         <div class="content">
-
             <div class="anchor-box">
                 <form action="#">
                     <button type="submit">Anchor list example</button>
@@ -91,187 +234,57 @@
                 </form>
             </div>
 
-            <h4>The page contains some examples of block</h4>
-            <p>The ludic fallacy, identified by Nassim Nicholas Taleb in his 2007 book The Black Swan, is "the misuse of
-                games to model real-life situations." Taleb explains the fallacy as "basing studies of chance on the narrow
-                world of games and dice." The adjective ludic originates from the Latin noun ludus, meaning "play, game,
+            <h4>The page contains some examples of&nbsp;block</h4>
+            <p>The ludic fallacy, identified by&nbsp;Nassim Nicholas Taleb in&nbsp;his 2007 book The Black Swan, is "the
+                misuse of
+                games to model real-life situations." Taleb explains the fallacy as "basing studies of&nbsp;chance on
+                the narrow
+                world of games and dice." The&nbsp;adjective ludic originates from the Latin noun ludus, meaning "play,
+                game,
                 sport, pastime."</p>
             <h5>Features. Bullet list example</h5>
             <ul>
-                <li>HTML5 & CSS3</li>
+                <li>HTML5&nbsp;&&nbsp;CSS3</li>
                 <li>Responsive design</li>
                 <li>Well documented</li>
                 <li>Developer friendly code</li>
-                <li>Easy to customize</li>
+                <li>Easy to&nbsp;customize</li>
                 <li>Sticky sidebar</li>
             </ul>
-            <p>Joseph Heller coined the term in his 1961 novel Catch-22, which describes absurd bureaucratic constraints on
-                soldiers in World War II. The term is introduced by the character Doc Daneeka, an army psychiatrist who
-                invokes "Catch-22" to explain why any pilot requesting mental evaluation for insanity — hoping to be found
-                not sane enough to fly and thereby escape dangerous missions — demonstrates his own sanity in creating the
-                request and thus cannot be declared insane. This phrase also means a dilemma or difficult circumstance from
+            <p>Joseph Heller coined the&nbsp;term in&nbsp;his 1961 novel Catch-22, which describes absurd bureaucratic
+                constraints on&nbsp;
+                soldiers in World War&nbsp;II. The term is introduced by the character Doc Daneeka, an army psychiatrist
+                who
+                invokes "Catch-22" to&nbsp;explain why any pilot requesting mental evaluation for insanity — hoping to
+                be found
+                not sane enough to fly and thereby escape dangerous missions — demonstrates his own sanity in creating
+                the
+                request and thus cannot be declared insane. This phrase also means a dilemma or difficult circumstance
+                from
                 which there is no escape because of mutually conflicting or dependent conditions.</p>
             <h5>My day</h5>
-            <ul>
+            <ul class="my_day">
                 <li><input type="checkbox">Create TODO list</li>
                 <li><input type="checkbox">Check me</li>
                 <li><input type="checkbox">Well done</li>
             </ul>
         </div>
-
+        <div class="content-footer container-flex">
+            <form action="#">
+                <button class="restore" type="submit"><i class="material-icons md-20 md-dark">restore</i></button>
+            </form>
+            <div class="content-footer_buttons container-flex">
+                <form action="#">
+                    <button type="reset">Cancel</button>
+                </form>
+                <form action="#">
+                    <button type="submit" class="active">Save</button>
+                </form>
+            </div>
+        </div>
     </div>
-
 
     <div class="sidebar_right"></div>
-
 </div>
-
-
-<!--<header class="section-top">
-    <div class="container">
-        <div class="row d-flex">
-            <div class="col col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="logo-bg">
-                    <div class="logo"></div>
-                </div>
-                <div class="logo-line"></div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <nav class="navbar navbar-expand-sm navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav mr-auto mt-2 justify-content-center d-flex">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Mulch&nbsp;Supplier</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Soils</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Mulch&nbsp;Fundraisers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact&nbsp;Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <h1>For&nbsp;All Your Land&shyscaping Needs...</h1>
-
-            <div class="row">
-                <div class="col-sm">
-                    <div class="section-top__greeting">
-                        <h3>Welcome to&nbsp;Nursery Supply&nbsp;Co.</h3>
-                        <div class="section-top__greeting__text">
-                            Nursery Supply&nbsp;Co.&nbsp;LLC, the&nbsp;manufacturer of&nbsp;Black Platinum and&nbsp;Gold
-                            Diamond hardwood mulch was founded in&nbsp;1974. In&nbsp;March&nbsp;2004 the&nbsp;company
-                            was purchased by its current ownership based in&nbsp;Louisville,&nbsp;KY.
-                            Our&nbsp;mulch manufacturing plants in&nbsp;Clay City, KY and&nbsp;Greenville,
-                            IN provide numerous mulch products to&nbsp;customers throughout Ohio,
-                            Indiana and&nbsp;Kentucky. We&nbsp;service a&nbsp;customer base which includes;&nbsp;...&nbsp;,
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-</header>
-
-<section class="section-middle">
-    <div class="container">
-        <div class="row">
-            <div class="card col-lg-4 col-md-4 col-sm-6 d-flex">
-                <div class="card__picture card__picture-1"></div>
-                <div class="card__title">Potting Soil</div>
-                <button type="button" class="btn btn-outline-success">Learn more</button>
-            </div>
-            <div class="card col-lg-4 col-md-4 col-sm-6 d-flex">
-                <div class="card__picture card__picture-2"></div>
-                <div class="card__title">Peat Moss</div>
-                <button type="button" class="btn btn-outline-success">Learn more</button>
-            </div>
-            <div class="card col-lg-4 col-md-4 col-sm-6 d-flex">
-                <div class="card__picture card__picture-3"></div>
-                <div class="card__title">Fertilizers</div>
-                <button type="button" class="btn btn-outline-success">Learn more</button>
-            </div>
-            <div class="card col-lg-1 col-md-1 col-sm-6 d-flex">
-                <div class="card__picture card__picture-4"></div>
-                <div class="card__title">Mulch</div>
-                <button type="button" class="btn btn-outline-success">Learn more</button>
-            </div>
-            <div class="card col-lg-1 col-md-1 col-sm-12 d-flex">
-                <div class="card__picture card__picture-5"></div>
-                <div class="card__title">Compost</div>
-                <button type="button" class="btn btn-outline-success">Learn more</button>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section-buttom">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <h3>Community</h3>
-                <h2>Benefits</h2>
-                <div class="section-buttom__content">
-                    Nursery Supply&nbsp;Co., LLC&nbsp;Fundraising is dedicated to&nbsp;helping
-                    organizations of&nbsp;all types fund their needs and&nbsp;efforts.
-                    Our&nbsp;fundraisers have helped sports teams purchase new uniforms,
-                    youth groups fund mission trips, scout troops pay for&nbsp;camping
-                    equipment and&nbsp;neighborhood organizations pay for&nbsp;landscaping.
-                    The sky is the limit on&nbsp;profit dollars your organization can
-                    generate with a&nbsp;mulch and/or&nbsp;bulb fundraiser from Nursery
-                    Supply&nbsp;Co.,&nbsp;LLC.
-                </div>
-                <button type="button" class="btn btn-outline-success">Learn more</button>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="nav-buttom">
-    <div class="container">
-        <nav class="nav justify-content-center">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#">Mulch&nbsp;Supplier</a>
-            <a class="nav-link" href="#">Soils</a>
-            <a class="nav-link" href="#">Mulch&nbsp;Fundraisers</a>
-            <a class="nav-link" href="#">Contact&nbsp;Us</a>
-        </nav>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <div class="row justify-content-space-between">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-12">© Nursery Supply Co. All rights reserved</div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-12">Development by Nursery Supply Co. 2016</div>
-        </div>
-    </div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>-->
-
 </body>
 </html>
