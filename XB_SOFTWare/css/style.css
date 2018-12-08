@@ -119,39 +119,77 @@ ul {
 .title p {
     margin: 0;
 }
+.sidebar-menu button {
+    padding: 0;
+}
 
 .sidebar-menu {
-    padding: 0 15px;
+    padding: 0 0 0 15px;
 }
 .sidebar-menu a {
     text-decoration: none;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 20px;
     font-size: 14px;
     color: #404040;
 }
-.sidebar-menu button {
-    padding: 0;
-}
+
 .sidebar-menu ul {
     list-style-type: none;
 }
+
 .sidebar-menu__sub-menu, .sidebar-menu__sub-sub-menu {
     display: none;
     margin-left: 20px;
 }
+.sidebar-menu__sub-sub-menu a {
+    font-weight: normal;
+}
+.b1 {
+    position: relative;
+    top: 5px;
+}
+.b2 {
+    display: none;
+    position: relative;
+    top: 5px;
+}
+
 .sidebar-menu__main-menu li:hover > ul,
 .sidebar-menu__sub-menu li:hover > ul{
     display: block;
 }
-.sidebar-menu__main-menu li:checked .sidebar-menu__sub-menu,
-.sidebar-menu__sub-menu li:checked .sidebar-menu__sub-sub-menu {
-    display: block;
+
+.sidebar-menu__main-menu li:hover div > .b2,
+.sidebar-menu__sub-menu li:hover > .b2 {
+    display: inline-block;
 }
-.sidebar-menu__main-menu li:checked .sidebar-menu__sub-menu,
-.sidebar-menu__sub-menu li:checked .sidebar-menu__sub-sub-menu {
-    display: block;
+.sidebar-menu__main-menu li:hover div > .b1,
+.sidebar-menu__sub-menu li:hover > .b1 {
+    display: none;
 }
+
+.sidebar-menu__main-menu li:hover > div:hover > .b2 > i,
+.sidebar-menu__main-menu li:hover > div:hover > a:hover,
+.sidebar-menu__main-menu li:hover > div > ul a:hover,
+.sidebar-menu__sub-menu li:hover > div > ul a:hover,
+.sidebar-menu__main-menu li:hover > div > ul:hover li:hover > i,
+.sidebar-menu__sub-menu li:hover > div > ul li:hover i {
+    color: #2EADC2;
+}
+
+.sidebar-menu li:hover > div:hover {
+    border-right: 2px solid #2EADC2;
+}
+
+.sidebar-menu button.dot {
+    font-size: 7px;
+    padding: 0 6px;
+    position: relative;
+    bottom: 3px;
+}
+
+
 .sidebar-footer {
     height: 60px;
     border-top: 1px dashed #DFDFDF;
@@ -165,6 +203,9 @@ ul {
 .sidebar-footer .face {
     margin-right: 10px;
 }
+
+
+
 
 
 
