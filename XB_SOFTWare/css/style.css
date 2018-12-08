@@ -122,7 +122,6 @@ ul {
 
 .sidebar-menu {
     padding: 0 15px;
-
 }
 .sidebar-menu a {
     text-decoration: none;
@@ -167,6 +166,8 @@ ul {
     margin-right: 10px;
 }
 
+
+
 /***********CONTAINER_MAIN***********/
 
 .container_main {
@@ -183,6 +184,7 @@ ul {
     padding: 0 23px;
     display: flex;
     flex-wrap: wrap;
+    top: 0;
 }
 
 /******Search Form******/
