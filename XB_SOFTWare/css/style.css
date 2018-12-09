@@ -122,7 +122,6 @@ ul {
 .sidebar-menu button {
     padding: 0;
 }
-
 .sidebar-menu {
     padding: 0 0 0 15px;
 }
@@ -133,7 +132,6 @@ ul {
     font-size: 14px;
     color: #404040;
 }
-
 .sidebar-menu ul {
     list-style-type: none;
 }
@@ -169,12 +167,12 @@ ul {
     display: none;
 }
 
-.sidebar-menu__main-menu li:hover > div:hover > .b2 > i,
-.sidebar-menu__main-menu li:hover > div:hover > a:hover,
+.sidebar-menu__main-menu li:hover > div > .b2 > i,
+.sidebar-menu__main-menu li:hover > div > .dot > i,
+.sidebar-menu__main-menu li:hover > div > a:hover,
+.sidebar-menu__sub-sub-menu li:hover > div i,
 .sidebar-menu__main-menu li:hover > div > ul a:hover,
-.sidebar-menu__sub-menu li:hover > div > ul a:hover,
-.sidebar-menu__main-menu li:hover > div > ul:hover li:hover > i,
-.sidebar-menu__sub-menu li:hover > div > ul li:hover i {
+.sidebar-menu__main-menu li:hover > div > ul:hover li:hover > i {
     color: #2EADC2;
 }
 
@@ -188,7 +186,6 @@ ul {
     position: relative;
     bottom: 3px;
 }
-
 
 .sidebar-footer {
     height: 60px;
@@ -206,9 +203,6 @@ ul {
 
 
 
-
-
-
 /***********CONTAINER_MAIN***********/
 
 .container_main {
@@ -216,7 +210,6 @@ ul {
     flex-direction: column;
     justify-content: space-between;
 }
-
 .toolbar {
     height: 60px;
     background: #FFF;
@@ -273,7 +266,6 @@ ul {
 .toolbar_menu button:hover {
     text-decoration: underline;
 }
-
 .toolbar_menu button:active, .toolbar_menu button:focus {
     border: 1px solid #EBEBEB;
     text-decoration: none;
@@ -394,7 +386,6 @@ ul.my_day {
 .content-footer_buttons button:last-child {
     margin-left: 20px;
 }
-
 
 
 /***********SIDEBAR_RIGHT***********/
