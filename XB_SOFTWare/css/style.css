@@ -167,14 +167,14 @@ ul {
     display: none;
 }
 
-.sidebar-menu__main-menu li:hover > div > .b2 > i,
+/*.sidebar-menu__main-menu li:hover > div > .b2 > i,
 .sidebar-menu__main-menu li:hover > div > .dot > i,
 .sidebar-menu__main-menu li:hover > div > a:hover,
 .sidebar-menu__sub-sub-menu li:hover > div i,
 .sidebar-menu__main-menu li:hover > div > ul a:hover,
 .sidebar-menu__main-menu li:hover > div > ul:hover li:hover > i {
     color: #2EADC2;
-}
+}*/
 
 .sidebar-menu li:hover > div:hover {
     border-right: 2px solid #2EADC2;
