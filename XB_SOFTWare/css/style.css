@@ -167,6 +167,7 @@ ul {
     display: none;
 }
 
+.sidebar-menu__main-menu li:hover > div > a,
 .sidebar-menu__main-menu li:hover > div > .b2 > i,
 .sidebar-menu__main-menu li:hover > div > .dot > i,
 .sidebar-menu__main-menu li:hover > div > a:hover,
