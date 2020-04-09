@@ -659,7 +659,7 @@ main {
   background: url("./../img/png/cow-with-bush.png") no-repeat center bottom, url("./../img/png/bush.png") no-repeat right bottom;
   bottom: 0;
   left: 0;
-  z-index: -1; }
+ }
 
 @media (max-width: 920px) {
   .section-top__items-wrapper {
