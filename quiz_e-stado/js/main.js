@@ -114,7 +114,7 @@ $(document).ready(function () {
 
 		sendForm('result_form', 'ajax_form', '/send.php');
 
-		// open("https://www.figma.com/file/NgF3FzxtgvbiZqmprLURlS/e-stado-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?node-id=0%3A1");
+		open("https://www.figma.com/file/NgF3FzxtgvbiZqmprLURlS/e-stado-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?node-id=0%3A1");
 	}
 
 	function checkContactValue(contact) {
