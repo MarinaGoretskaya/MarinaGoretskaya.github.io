@@ -26,13 +26,4 @@
 
     echo "Данные приняты. Спасибо Вам, мы скоро свяжемся с Вами.";
 
-    echo $contact;
-    echo $email;
-    echo $contactValue;
-    echo $countCow;
-    echo $countMilk;
-    echo $position;
-    echo $message;
-
-
 ?>
