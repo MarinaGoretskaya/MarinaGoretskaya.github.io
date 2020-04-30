@@ -8,7 +8,7 @@
     "bootstrap": "^4.4.1",
     "gulp": "^4.0.2",
     "inputmask": "^5.0.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery.maskedinput": "^1.4.1"
   },
   "devDependencies": {
