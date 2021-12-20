@@ -2,7 +2,7 @@
 <html lang="ru-RU">
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Diagnostics</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="stylesheet" href="static/css/styles.css">
@@ -15,8 +15,15 @@
         <div class="container">
           <div class="header__row flex">
             <div class="header__col">
-              <div class="logo-block">
-                <div class="menu"><img src="static/images/png/burger.png"></div><a class="logo" href="index.html"><img src="static/images/png/logo.png" alt="logo"></a>
+              <div class="logo-block"><a class="menu-botton" href="index.html"><img src="static/images/png/burger.png"></a>
+                <div class="menu" style="display: none;">
+                  <ul class="menu__inner" id="accordeon">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Бизнес</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Цены</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Оформить заказ</a></li>
+                  </ul>
+                </div><a class="logo" href="index.html"><img src="static/images/png/logo.png" alt="logo"></a>
               </div>
             </div>
             <div class="header__col">
@@ -391,28 +398,28 @@
                        по&nbsp;3&ndash;4&nbsp;раза в&nbsp;году.
                     </p>
                   </div>
-                  <div class="slider team__slider">
-                    <div class="slider-item"><a class="slider-item__inner">
+                  <div class="slider team__slider library">
+                    <div class="slider-item"><a class="slider-item__inner" href="static/images/jpg/doc-1.jpg">
                         <div class="slider-item__img-wrap">
                           <div class="slider-item__img"><img src="static/images/jpg/doc-1.jpg" alt="doc-1"></div>
                         </div></a></div>
-                    <div class="slider-item"><a class="slider-item__inner">
+                    <div class="slider-item"><a class="slider-item__inner" href="static/images/jpg/doc-2.jpg">
                         <div class="slider-item__img-wrap">
                           <div class="slider-item__img"><img src="static/images/jpg/doc-2.jpg" alt="doc-2"></div>
                         </div></a></div>
-                    <div class="slider-item"><a class="slider-item__inner">
+                    <div class="slider-item"><a class="slider-item__inner" href="static/images/jpg/doc-3.jpg">
                         <div class="slider-item__img-wrap">
                           <div class="slider-item__img"><img src="static/images/jpg/doc-3.jpg" alt="doc-3"></div>
                         </div></a></div>
-                    <div class="slider-item"><a class="slider-item__inner">
+                    <div class="slider-item"><a class="slider-item__inner" href="static/images/jpg/doc-4.jpg">
                         <div class="slider-item__img-wrap">
                           <div class="slider-item__img"><img src="static/images/jpg/doc-4.jpg" alt="doc-4"></div>
                         </div></a></div>
-                    <div class="slider-item"><a class="slider-item__inner">
+                    <div class="slider-item"><a class="slider-item__inner" href="static/images/jpg/doc-5.jpg">
                         <div class="slider-item__img-wrap">
                           <div class="slider-item__img"><img src="static/images/jpg/doc-5.jpg" alt="doc-5"></div>
                         </div></a></div>
-                    <div class="slider-item"><a class="slider-item__inner">
+                    <div class="slider-item"><a class="slider-item__inner" href="static/images/jpg/doc-5.jpg">
                         <div class="slider-item__img-wrap">
                           <div class="slider-item__img"><img src="static/images/jpg/doc-5.jpg" alt="doc-5"></div>
                         </div></a></div>
@@ -468,9 +475,8 @@
                   
                 </div>
               </div>
-              <div class="reviews__row flex">
-                <div class="reviews-item">
-                  <div class="reviews-item__inner">
+              <div class="reviews__row flex library">
+                <div class="reviews-item"><a class="reviews-item__inner" href="static/images/png/feetback-1.png">
                     <div class="reviews-item__img-wrap">
                       <div class="reviews-item__img"><img src="static/images/png/feetback-1.png" alt="Отзыв Huawei">
                         <div class="reviews-item__img-hover"></div>
@@ -479,11 +485,8 @@
                     </div>
                     <div class="reviews-item__text-wrap">
                       <div class="reviews-item__caption">ООО «Хуавей Беларусь»</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="reviews-item">
-                  <div class="reviews-item__inner">
+                    </div></a></div>
+                <div class="reviews-item"><a class="reviews-item__inner" href="static/images/png/feetback-2.png">
                     <div class="reviews-item__img-wrap">
                       <div class="reviews-item__img"><img src="static/images/png/feetback-2.png" alt="Отзыв Life">
                         <div class="reviews-item__img-hover"></div>
@@ -492,11 +495,8 @@
                     </div>
                     <div class="reviews-item__text-wrap">
                       <div class="reviews-item__caption">ЗАО «БеСТ»</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="reviews-item">
-                  <div class="reviews-item__inner">
+                    </div></a></div>
+                <div class="reviews-item"><a class="reviews-item__inner" href="static/images/png/feetback-3.png">
                     <div class="reviews-item__img-wrap">
                       <div class="reviews-item__img"><img src="static/images/png/feetback-3.png" alt="Отзыв Алеся">
                         <div class="reviews-item__img-hover"></div>
@@ -505,11 +505,8 @@
                     </div>
                     <div class="reviews-item__text-wrap">
                       <div class="reviews-item__caption">ОАО «Алеся»</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="reviews-item">
-                  <div class="reviews-item__inner">
+                    </div></a></div>
+                <div class="reviews-item"><a class="reviews-item__inner" href="static/images/png/feetback-4.png">
                     <div class="reviews-item__img-wrap">
                       <div class="reviews-item__img"><img src="static/images/png/feetback-4.png" alt="Отзыв МТС">
                         <div class="reviews-item__img-hover"></div>
@@ -518,9 +515,7 @@
                     </div>
                     <div class="reviews-item__text-wrap">
                       <div class="reviews-item__caption">СООО «Мобильные ТелеСистемы»</div>
-                    </div>
-                  </div>
-                </div>
+                    </div></a></div>
               </div>
               <div class="button-block flex">
                 <button class="button">
@@ -536,7 +531,7 @@
             <div class="section-9__body">
               <div class="section-9__header center">
                 <h2 class="section-9__title white-title"><span class="yellow-txt">Узнайте точную стоимость</span><span> обследования Вашего объекта</span></h2>
-                <div class="section-9__descr">Отправьте нам техзадание, ответив на несколько вопросов, и Вы получите коммерческое предложение в течении 10-15 минут</div>
+                <div class="section-9__descr">Отправьте нам техзадание, ответив на&nbsp;несколько вопросов, и&nbsp;Вы получите коммерческое предложение в&nbsp;течении 10&ndash;15&nbsp;минут</div>
                 <button class="button">
                   <svg class="icon icon-check-mark ">
                     <use xlink:href="static/images/sprite/symbol/sprite.svg#check-mark"></use>
