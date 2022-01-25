@@ -18,7 +18,7 @@ $(function () {
     progMinus.toString().length === 1 ? progMinus = '0' + progMinus : progMinus;
     $(".progress .progress-text .txt-left").html("Run 00:" + progPlus + "/01:00");
     $(".progress .progress-text .txt-right").html("-00:" + progMinus);
-  }, 1500);
+  }, 500);
 });
 window.onscroll = function showHeader() {
   let headerBg = document.querySelector('.header .b-sec__bg');
