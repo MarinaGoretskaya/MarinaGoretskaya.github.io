@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <title>Свободные кухни</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="static/css/styles.css">
+  </head>
+  <body>
+    <div class="bg">
+      <div class="outer-bg"></div>
+      <header class="header">
+        <!--.b-sec__bg.b-sec__bg_darkgray-->
+        <div class="container">
+          <div class="header__row flex">
+            <div class="header__col header-left"><a class="logo-title" href="index.html">Свободные<br>кухни</a>
+              <div class="menu">
+                <ul class="menu__list desk-menu__list" id="accordeon">
+                  <li class="menu__item"><a class="menu__link" href="#a-top">О проекте</a></li>
+                  <li class="menu__item"><a class="menu__link popup-open" href="#modal">Выбрать кухню</a></li>
+                  <li class="menu__item"><a class="menu__link popup-open" href="#modal">Добавить кухню</a></li>
+                  <li class="menu__item"><a class="menu__link" href="#a-footer">Контакты</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="header__col header-right">
+              <!--a(href="#modal").register.reg-desk Регистрация-->
+              <!--    +icon("arrow")-->
+              <!---->
+              <!--button.button.button_green.button-enter Вход-->
+              <button class="menu-burger" href="index.html"><span class="ico"></span></button>
+              <div class="mob-menu closed">
+                <div class="mob-menu__wrap">
+                  <div class="mob-menu__header"><a class="mob-menu__title logo-title" href="index.html">Свободные<br>кухни</a>
+                    <button class="button button-close hamburger-closer">
+                      <svg class="icon icon-close ">
+                        <use xlink:href="static/images/sprite/symbol/sprite.svg#close"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="mob-menu__body">
+                    <ul class="menu__list mob-menu__list" id="mob-menu">
+                      <li class="menu__item"><a class="menu__link" href="#a-top">О проекте</a></li>
+                      <li class="menu__item"><a class="menu__link popup-open" href="#modal">Выбрать кухню</a></li>
+                      <li class="menu__item"><a class="menu__link popup-open" href="#modal">Добавить кухню</a></li>
+                      <li class="menu__item"><a class="menu__link" href="#a-footer">Контакты</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--window.onscroll = function showHeader() {-->
+      <main class="g-main">
+        <div class="container"><a name="a-top"></a>
+          <section class="b-sec sec1 main-sec">
+            <!--.container-->
+            <div class="b-sec__bg b-sec__bg_half-bg"></div>
+            <div class="sec__row main-sec__row">
+              <div class="sec__col2 main-sec__col">
+                <div class="col2__inner">
+                  <div class="main-sec__main">
+                    <div class="main-sec__img"><img src="static/images/png/sec1-logo.png" alt="logo"></div>
+                    <h2 class="dark">Свободные кухни</h2>
+                    <div class="descr main-sec__descr">Наши кухни&nbsp;&ndash; это большой кулинарный коворкинг с&nbsp;профессиональным оборудованием для ресторанов, желающих масштабироваться, частных поваров, кейтерингов и&nbsp;всех, кто любит готовить и&nbsp;мечтает создать бизнес в&nbsp;фуд-индустрии!</div>
+                    <button class="button main-sec__button button_green popup-open" href="#modal">Как это работает?</button>
+                  </div>
+                </div>
+              </div>
+              <div class="sec__col2 main-sec__col"></div>
+            </div>
+          </section>
+          <section class="b-sec sec2 prof">
+            <!--.container-->
+            <div class="b-sec__bg b-sec__bg_half-bg"></div>
+            <div class="sec__row prof__row">
+              <div class="sec__col2 prof__col">
+                <div class="col2__inner">
+                  <div class="prof-first">
+                    <div class="prof__img prof-first__img"><img src="static/images/jpg/prof-kitchen.jpg" alt="Профессиональная кухня"></div>
+                    <h2 class="white-title">Профессиональная кухня</h2>
+                    <div class="descr-bold prof__descr">Идеально для организации доставки действующего ресторана или открытия нового</div>
+                    <ul class="list">
+                      <li class="list-item">
+                        <div class="descr-bold list-item__title">Запуск проекта за&nbsp;1&nbsp;день</div>
+                        <div class="descr-small list-item__descr">Рестораны могут запустить собственную доставку буквально за&nbsp;один день, не&nbsp;тратя время на&nbsp;бюрократические вопросы.</div>
+                      </li>
+                      <li class="list-item">
+                        <div class="descr-bold list-item__title">Все уже готово</div>
+                        <div class="descr-small list-item__descr">Тепловое, холодильное и&nbsp;прочее оборудование, места хранения, все необходимые помещения и&nbsp;коммуникации</div>
+                      </li>
+                      <li class="list-item">
+                        <div class="descr-bold list-item__title">Аренда от 1&nbsp;месяца</div>
+                        <div class="descr-small list-item__descr">Никаких дополнительных затрат. Ежедневная уборка, вывоз мусора, техническое обслуживание оборудования и&nbsp;т.&nbsp;д.&nbsp;&mdash; всё включено в&nbsp;аренду.</div>
+                      </li>
+                    </ul>
+                    <button class="button prof__button button_white popup-open" href="#modal">Выбрать</button>
+                  </div>
+                </div>
+              </div>
+              <div class="sec__col2 prof__col">
+                <div class="b-sec__bg b-sec__bg_half-bg-2"></div>
+                <div class="col2__inner">
+                  <div class="prof-second">
+                    <div class="prof__img prof-second__img"><img src="static/images/jpg/workplace.jpg" alt="Рабочее место"></div>
+                    <h2 class="white-title">Рабочее место</h2>
+                    <div class="descr-bold prof__descr">Идеально для частных поваров, кейтеринга и&nbsp;разработки меню</div>
+                    <ul class="list">
+                      <li class="list-item">
+                        <div class="descr-bold list-item__title">Выбирайте, что необходимо</div>
+                        <div class="descr-small list-item__descr">Скомплектуйте для себя все необходимое оборудование и&nbsp;оплачивайте только его фактическое использование</div>
+                      </li>
+                      <li class="list-item">
+                        <div class="descr-bold list-item__title">Всё, что вы не&nbsp;любите, мы сделали за вас&nbsp;&mdash; вам остаётся только готовить</div>
+                        <div class="descr-small list-item__descr">Уборка, вывоз мусора, коммунальные платежи, техническое обслуживание&nbsp;&ndash; все включено в&nbsp;аренду</div>
+                      </li>
+                      <li class="list-item">
+                        <div class="descr-bold list-item__title">Гибкий график работы</div>
+                        <div class="descr-small list-item__descr">Арендуйте рабочее место на&nbsp;час, день или месяц</div>
+                      </li>
+                    </ul>
+                    <button class="button prof__button button_white popup-open" href="#modal">Выбрать</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="b-sec sec3 start">
+            <div class="b-sec__bg"></div>
+            <div class="start__body">
+              <div class="start__head">
+                <h2 class="dark">Начать свой ресторанный бизнес&nbsp;&mdash; легко!</h2>
+                <div class="sec__row3 start__row">
+                  <div class="sec__col3 start__col">
+                    <div class="start__item flex">
+                      <div class="item__num flex">1</div>
+                      <div class="item__descr">
+                        <h4 class="item-subtitle">Выберите одну из&nbsp;опций бронирования</h4>
+                        <div class="descr-small item-text">Пройдите этап регистрации на сайте, чтобы вам стал доступен весь каталог для аренды.</div>
+                        <div class="item-link"><a class="popup-open" href="#modal"><span>Открыть каталог</span>
+                            <svg class="icon icon-arrow ">
+                              <use xlink:href="static/images/sprite/symbol/sprite.svg#arrow"></use>
+                            </svg></a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sec__col3 start__col">
+                    <div class="start__item flex">
+                      <div class="item__num flex">2</div>
+                      <div class="item__descr">
+                        <h4 class="item-subtitle">Выберите необходимое оборудование</h4>
+                        <div class="descr-small item-text">
+                          У нас доступны пространства под разные типы кухни. Вы&nbsp;можете снимать целую кухню или
+                          рабочее место на&nbsp;любой срок.
+                        </div>
+                        <div class="item-link"><a class="popup-open" href="#modal"><span>Открыть каталог
+                              <svg class="icon icon-arrow ">
+                                <use xlink:href="static/images/sprite/symbol/sprite.svg#arrow"></use>
+                              </svg></span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sec__col3 start__col">
+                    <div class="start__item flex">
+                      <div class="item__num flex">3</div>
+                      <div class="item__descr">
+                        <h4 class="item-subtitle">Начните готовить</h4>
+                        <div class="descr-small item-text">
+                          Мы предоставляем всё необходимое оборудование для работы, осталось выбрать, какое нужно именно вам!
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="video-block"><a class="video-block__link flex" href="static/images/video/Test2.mp4"><img src="static/images/jpg/video.jpg" alt="Видео">
+                  <button class="button button-play"><img src="static/images/png/btn-play.png" alt="play">
+                    <svg class="icon icon-play ">
+                      <use xlink:href="static/images/sprite/symbol/sprite.svg#play"></use>
+                    </svg>
+                  </button></a></div>
+            </div>
+          </section>
+          <section class="b-sec sec4 rent">
+            <div class="b-sec__bg"></div>
+            <div class="rent__body">
+              <div class="slider rent-tabs">
+                <!--.rent-tabs__row-->
+                <!--    .rent-tabs__nav-->
+                <div class="rent-tabs__item"><a class="rent-tabs__link" href="#tab-1">Пиццерия</a></div>
+                <div class="rent-tabs__item"><a class="rent-tabs__link" href="#tab-2">Суши</a></div>
+                <div class="rent-tabs__item"><a class="rent-tabs__link" href="#tab-3">Кондитерская</a></div>
+                <div class="rent-tabs__item"><a class="rent-tabs__link" href="#tab-4">Бургерная</a></div>
+                <div class="rent-tabs__item"><a class="rent-tabs__link" href="#tab-5">Бизнес-ланч</a></div>
+              </div>
+              <div class="rent-tabs__body">
+                <div class="rent-tabs__block block-active" id="tab-1">
+                  <div class="rent-head">
+                    <div class="sec__row rent-head__row">
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <h2 class="dark">Аренда рабочего места<br><span>от 10 BYN/час</span></h2>
+                        </div>
+                      </div>
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <div class="descr">
+                            Мы знаем все секреты идеальной пиццы!<br>
+                            Поэтому оборудовали кухню всем, что для этого нужно: пицца-печь, тестомес и&nbsp;тестораскатка, пресс-пицца, производственный стол, холодильник и&nbsp;морозильная камера, а&nbsp;также кофемашина&nbsp;/ слаш-машина или термопот.
+                          </div>
+                          <button class="button button_green popup-open" href="#modal">Оставить заявку</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rent-tabs__block" id="tab-2">
+                  <div class="rent-head">
+                    <div class="sec__row rent-head__row">
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <h2 class="dark">Аренда рабочего места<br><span>от 10 BYN/час</span></h2>
+                        </div>
+                      </div>
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <div class="descr">
+                            Планируете радовать клиентов изысканными блюдами японской кухни?<br>
+                            Мы предусмотрели всё для качественных роллов и&nbsp;суши: холодильный и&nbsp;морозильный стол, холодильный шкаф, блендер, погружной миксер, рисоварки и&nbsp;фритюр.
+                          </div>
+                          <button class="button button_green popup-open" href="#modal">Оставить заявку</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rent-tabs__block" id="tab-3">
+                  <div class="rent-head">
+                    <div class="sec__row rent-head__row">
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <h2 class="dark">Аренда рабочего места<br><span>от 10 BYN/час</span></h2>
+                        </div>
+                      </div>
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <div class="descr">
+                            Масштабируйте ваш кондитерский бизнес на&nbsp;Свободных кухнях!<br>
+                            Для кухни кондитеров мы предлагаем: тестомес, блендер, погружной и&nbsp;планетарный миксер, конвекционную печь, холодильный и&nbsp;морозильный стол, холодильный шкаф.
+                            
+                          </div>
+                          <button class="button button_green popup-open" href="#modal">Оставить заявку</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rent-tabs__block" id="tab-4">
+                  <div class="rent-head">
+                    <div class="sec__row rent-head__row">
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <h2 class="dark">Аренда рабочего места<br><span>от 10 BYN/час</span></h2>
+                        </div>
+                      </div>
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <div class="descr">
+                            Что может быть лучше хорошего, сочного бургера? Только тот, который приготовлен на&nbsp;профессиональном оборудовании!<br>
+                            Для стритфуд концепции мы оборудовали зону&nbsp;с: жарочной поверхностью, фритюром, конвекционной печью и&nbsp;пароконвектоматом, холодильным и&nbsp;морозильным столом, холодильным шкафом, блендером и&nbsp;погружным миксером.
+                          </div>
+                          <button class="button button_green popup-open" href="#modal">Оставить заявку</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rent-tabs__block" id="tab-5">
+                  <div class="rent-head">
+                    <div class="sec__row rent-head__row">
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <h2 class="dark">Аренда рабочего места<br><span>от 10 BYN/час</span></h2>
+                        </div>
+                      </div>
+                      <div class="sec__col2 rent-head__col">
+                        <div class="col2__inner">
+                          <div class="descr">
+                            А&nbsp;что, если мы скажем, что вы можете накормить обедами все офисы города и&nbsp;не&nbsp;только? Со&nbsp;Свободными кухнями это возможно!<br>
+                            Зона для приготовления бизнес-ланчей включает в&nbsp;себя: жарочную поверхность, фритюр, пароконвектомат и&nbsp;конвекционную печь, блендер и&nbsp;погружной миксер, холодильный и&nbsp;морозильный стол, холодильный шкаф, слайсер.
+                          </div>
+                          <button class="button button_green popup-open" href="#modal">Оставить заявку</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slider rent__slider">
+                <div class="slider-item"><a class="slider-item__link" href="#tab-1">
+                    <div class="slider-item__inner">
+                      <div class="slider-item__img-wrap">
+                        <div class="slider-item__img"><img src="static/images/jpg/pizzeria.jpg" alt="Пиццерия"></div>
+                      </div>
+                    </div></a></div>
+                <div class="slider-item"><a class="slider-item__link" href="#tab-2">
+                    <div class="slider-item__inner">
+                      <div class="slider-item__img-wrap">
+                        <div class="slider-item__img"><img src="static/images/jpg/sushi.jpg" alt="Суши"></div>
+                      </div>
+                    </div></a></div>
+                <div class="slider-item"><a class="slider-item__link" href="#tab-3">
+                    <div class="slider-item__inner">
+                      <div class="slider-item__img-wrap">
+                        <div class="slider-item__img"><img src="static/images/jpg/konditerskaya.jpg" alt="Кондитерская"></div>
+                      </div>
+                    </div></a></div>
+                <div class="slider-item"><a class="slider-item__link" href="#tab-4">
+                    <div class="slider-item__inner">
+                      <div class="slider-item__img-wrap">
+                        <div class="slider-item__img"><img src="static/images/jpg/burgernaya.jpg" alt="Бургерная"></div>
+                      </div>
+                    </div></a></div>
+                <div class="slider-item"><a class="slider-item__link" href="#tab-5">
+                    <div class="slider-item__inner">
+                      <div class="slider-item__img-wrap">
+                        <div class="slider-item__img"><img src="static/images/jpg/business-lunch.jpg" alt="Бизнес-ланч"></div>
+                      </div>
+                    </div></a></div>
+              </div>
+            </div>
+          </section>
+          <section class="b-sec sec5 catalog">
+            <div class="b-sec__bg"></div>
+            <div class="catalog__body">
+              <h2 class="white-title center">Каталог помещений для аренды</h2>
+              <div class="slider catalog__slider">
+                <div class="slider-item">
+                  <div class="slider-item__inner">
+                    <div class="slider-item__img-wrap">
+                      <div class="slider-item__img"><img src="static/images/jpg/pizzeria.jpg" alt="Пиццерия"></div>
+                    </div>
+                    <div class="slider-item__text-wrap">
+                      <h4 class="slider-item__title">Пиццерия</h4>
+                      <div class="slider-item__descr flex">
+                        <div class="slider-item__descr-item slider-item__descr-city">Москва</div>
+                        <div class="slider-item__descr-item slider-item__descr-area">190 м2</div>
+                        <div class="slider-item__descr-item slider-item__descr-floor">1 этаж</div>
+                      </div>
+                      <div class="slider-item__price"><span class="price-bold">от 1 500 ₽</span><span>/час</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="slider-item__inner">
+                    <div class="slider-item__img-wrap">
+                      <div class="slider-item__img"><img src="static/images/jpg/sushi.jpg" alt="Суши"></div>
+                    </div>
+                    <div class="slider-item__text-wrap">
+                      <h4 class="slider-item__title">Суши</h4>
+                      <div class="slider-item__descr flex">
+                        <div class="slider-item__descr-city">Москва</div>
+                        <div class="slider-item__descr-area">190 м2</div>
+                        <div class="slider-item__descr-floor">1 этаж</div>
+                      </div>
+                      <div class="slider-item__price"><span class="price-bold">от 1 500 ₽</span><span>/час</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="slider-item__inner">
+                    <div class="slider-item__img-wrap">
+                      <div class="slider-item__img"><img src="static/images/jpg/konditerskaya.jpg" alt="Кондитерская"></div>
+                    </div>
+                    <div class="slider-item__text-wrap">
+                      <h4 class="slider-item__title">Кондитерская</h4>
+                      <div class="slider-item__descr flex">
+                        <div class="slider-item__descr-city">Москва</div>
+                        <div class="slider-item__descr-area">190 м2</div>
+                        <div class="slider-item__descr-floor">1 этаж</div>
+                      </div>
+                      <div class="slider-item__price"><span class="price-bold">от 1 500 ₽</span><span>/час</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="slider-item__inner">
+                    <div class="slider-item__img-wrap">
+                      <div class="slider-item__img"><img src="static/images/jpg/burgernaya.jpg" alt="Бургерная"></div>
+                    </div>
+                    <div class="slider-item__text-wrap">
+                      <h4 class="slider-item__title">Бургерная</h4>
+                      <div class="slider-item__descr flex">
+                        <div class="slider-item__descr-city">Москва</div>
+                        <div class="slider-item__descr-area">190 м2</div>
+                        <div class="slider-item__descr-floor">1 этаж</div>
+                      </div>
+                      <div class="slider-item__price"><span class="price-bold">от 1 500 ₽</span><span>/час</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="slider-item__inner">
+                    <div class="slider-item__img-wrap">
+                      <div class="slider-item__img"><img src="static/images/jpg/business-lunch.jpg" alt="Бизнес-ланч"></div>
+                    </div>
+                    <div class="slider-item__text-wrap">
+                      <h4 class="slider-item__title">Бизнес-ланч</h4>
+                      <div class="slider-item__descr flex">
+                        <div class="slider-item__descr-city">Москва</div>
+                        <div class="slider-item__descr-area">190 м2</div>
+                        <div class="slider-item__descr-floor">1 этаж</div>
+                      </div>
+                      <div class="slider-item__price"><span class="price-bold">от 1 500 ₽</span><span>/час</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="slider-item__inner">
+                    <div class="slider-item__img-wrap">
+                      <div class="slider-item__img"><img src="static/images/jpg/burgernaya.jpg" alt="Бургерная"></div>
+                    </div>
+                    <div class="slider-item__text-wrap">
+                      <h4 class="slider-item__title">Бургерная</h4>
+                      <div class="slider-item__descr flex">
+                        <div class="slider-item__descr-city">Москва</div>
+                        <div class="slider-item__descr-area">190 м2</div>
+                        <div class="slider-item__descr-floor">1 этаж</div>
+                      </div>
+                      <div class="slider-item__price"><span class="price-bold">от 1 500 ₽</span><span>/час</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slider-item">
+                  <div class="slider-item__inner">
+                    <div class="slider-item__img-wrap">
+                      <div class="slider-item__img"><img src="static/images/jpg/business-lunch.jpg" alt="Бизнес-ланч"></div>
+                    </div>
+                    <div class="slider-item__text-wrap">
+                      <h4 class="slider-item__title">Бизнес-ланч</h4>
+                      <div class="slider-item__descr flex">
+                        <div class="slider-item__descr-city">Москва</div>
+                        <div class="slider-item__descr-area">190 м2</div>
+                        <div class="slider-item__descr-floor">1 этаж</div>
+                      </div>
+                      <div class="slider-item__price"><span class="price-bold">от 1 500 ₽</span><span>/час</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="b-sec sec6 just-cook">
+            <div class="b-sec__bg"></div>
+            <div class="team__body">
+              <div class="sec__row just-cook__row">
+                <div class="sec__col2 just-cook__col">
+                  <div class="col2__inner">
+                    <h2 class="white-title">Вам нужно только готовить</h2>
+                    <div class="just-cook__item">
+                      <h4 class="just-cook__subtitle">Правильная геолокация</h4>
+                      <div class="descr-small just-cook__text">
+                        Свободные кухни расположены в&nbsp;самом центре, чтобы помочь вам вести свой бизнес по&nbsp;доставке еды,
+                        охватывая все района города с&nbsp;максимальной эффективностью и&nbsp;минимальными затратами.
+                      </div>
+                    </div>
+                    <div class="just-cook__item">
+                      <h4 class="just-cook__subtitle">Команда по&nbsp;выполнению заказов</h4>
+                      <div class="descr-small just-cook__text">
+                        Ваша доставка еды порадует покупателей скоростью и&nbsp;точностью, благодаря правильно спроектированному
+                        помещению и&nbsp;наличию всех необходимых сервисов.
+                      </div>
+                    </div>
+                    <div class="just-cook__item">
+                      <h4 class="just-cook__subtitle">Ваша кухня&nbsp;&mdash; в&nbsp;наших руках</h4>
+                      <div class="descr-small just-cook__text">
+                        Мы заботимся об уборке, дезинфекции, вывозе мусора, техническом обслуживании кухни и&nbsp;соблюдении
+                        правил безопасности. Вы&nbsp;можете полностью сосредоточиться на готовке и&nbsp;совершенствовании
+                        качества вашего продукта!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sec__col2 just-cook__col">
+                  <div class="col2__inner">
+                    <div class="cook-pict__row flex">
+                      <div class="cook-pict__col">
+                        <div class="cook-pict__wrap cook-pict__first">
+                          <div class="cook-pict__descr-block">
+                            <h5 class="cook-pict__title">Зона выдачи заказа</h5>
+                            <div class="descr-extrasmall cook-pict__descr">наши администраторы передадут заказ курьеру даже в&nbsp;ваше отсутствие</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cook-pict__col">
+                        <div class="cook-pict__wrap cook-pict__second">
+                          <div class="cook-pict__descr-block">
+                            <h5 class="cook-pict__title">Свободные кухни</h5>
+                            <div class="descr-extrasmall cook-pict__descr">полностью укомплектованы всем необходимым</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cook-pict__col">
+                        <div class="cook-pict__wrap cook-pict__third">
+                          <div class="cook-pict__descr-block">
+                            <h5 class="cook-pict__title">Все готово</h5>
+                            <div class="descr-extrasmall cook-pict__descr">гардеробы, комнаты приема пищи, санузлы, комната для фотосъемки&nbsp;&ndash; все уже готово и&nbsp;ждет вас</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="b-sec sec7 why-we">
+            <div class="b-sec__bg b-sec__bg_gray"></div>
+            <div class="why-we__body">
+              <h2 class="white-title center">Почему мы?</h2>
+              <div class="slider tizers__slider">
+                <div class="slider-item tizer__item">
+                  <div class="tizer__inner">
+                    <div class="tizer__img">
+                      <svg class="icon icon-clean ">
+                        <use xlink:href="static/images/sprite/symbol/sprite.svg#clean"></use>
+                      </svg>
+                    </div>
+                    <h3 class="tizer__title">Идеальная чистота</h3>
+                    <div class="descr tizer__descr">Мы обеспечиваем постоянную уборку, мойку кухонного инвентаря, дезинфекцию и&nbsp;дератизацию.</div>
+                  </div>
+                </div>
+                <div class="slider-item tizer__item">
+                  <div class="tizer__inner">
+                    <div class="tizer__img">
+                      <svg class="icon icon-communications ">
+                        <use xlink:href="static/images/sprite/symbol/sprite.svg#communications"></use>
+                      </svg>
+                    </div>
+                    <h3 class="tizer__title">Коммуникации</h3>
+                    <div class="descr tizer__descr">В наших кухнях все коммуникации уже подключены и&nbsp;расположены на&nbsp;нужных местах.</div>
+                  </div>
+                </div>
+                <div class="slider-item tizer__item">
+                  <div class="tizer__inner">
+                    <div class="tizer__img">
+                      <svg class="icon icon-equipment ">
+                        <use xlink:href="static/images/sprite/symbol/sprite.svg#equipment"></use>
+                      </svg>
+                    </div>
+                    <h3 class="tizer__title">Оборудование</h3>
+                    <div class="descr tizer__descr">У нас вы найдёте всё необходимое профессиональное оборудование, чтобы реализовать все свои кулинарные идеи!</div>
+                  </div>
+                </div>
+                <div class="slider-item tizer__item">
+                  <div class="tizer__inner">
+                    <div class="tizer__img">
+                      <svg class="icon icon-Internet ">
+                        <use xlink:href="static/images/sprite/symbol/sprite.svg#Internet"></use>
+                      </svg>
+                    </div>
+                    <h3 class="tizer__title">Интернет</h3>
+                    <div class="descr tizer__descr">В кухнях доступен высокоскоростной интернет для того, чтобы вы всегда были на&nbsp;связи.</div>
+                  </div>
+                </div>
+                <div class="slider-item tizer__item">
+                  <div class="tizer__inner">
+                    <div class="tizer__img">
+                      <svg class="icon icon-storage ">
+                        <use xlink:href="static/images/sprite/symbol/sprite.svg#storage"></use>
+                      </svg>
+                    </div>
+                    <h3 class="tizer__title">Хранение</h3>
+                    <div class="descr tizer__descr">Не беспокойтесь о&nbsp;хранении ваших продуктов! У&nbsp;нас доступны холодильные, морозильные и&nbsp;сухие складские помещения.</div>
+                  </div>
+                </div>
+                <div class="slider-item tizer__item">
+                  <div class="tizer__inner">
+                    <div class="tizer__img">
+                      <svg class="icon icon-access ">
+                        <use xlink:href="static/images/sprite/symbol/sprite.svg#access"></use>
+                      </svg>
+                    </div>
+                    <h3 class="tizer__title">Доступ 24/7</h3>
+                    <div class="descr tizer__descr">
+                      Нужно готовиться к&nbsp;заказам даже ночью? Мы&nbsp;примем вас в&nbsp;любое время!
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="select-kitchen__row flex">
+                <button class="button select-kitchen__button popup-open" href="#modal">Выбрать кухню
+                  <svg class="icon icon-select-arrow ">
+                    <use xlink:href="static/images/sprite/symbol/sprite.svg#select-arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </section>
+          <section class="b-sec sec8 reviews">
+            <div class="b-sec__bg b-sec__bg_half-bg"></div>
+            <div class="reviews__body">
+              <div class="sec__row reviews__row">
+                <div class="sec__col2 reviews__col">
+                  <div class="col2__inner">
+                    <h2 class="white-title">Нас выбирают профессионалы!</h2>
+                    <div class="descr reviews__descr">
+                      Обеспечить всё, что нужно для комфортной готовки и&nbsp;качественного продукта&nbsp;&ndash; наша главная цель.
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="sec__col2 reviews__col">
+                  <div class="reviews__wrapper">
+                    <div class="blockquote__row">
+                      <div class="img-blockquote"><img src="static/images/png/bloquote.png" alt="blockquote"></div>
+                    </div>
+                    <div class="col2__inner">
+                      <div class="b-sec__bg b-sec__bg_half-bg-2"></div>
+                      <div class="slider reviews__slider">
+                        <div class="slider-item">
+                          <div class="review">
+                            <div class="review__img">
+                              <!--.review__col--><img src="static/images/jpg/avatar.jpg" alt="avatar">
+                              <!--.review__col-->
+                              <!--    .review__name-->
+                              <!--    .review__person-descr-->
+                            </div>
+                            <div class="review__text">
+                              Всем привет!<br>
+                              Мы&nbsp;&ndash; команда «Свободных кухонь». Развитие проекта возможно благодаря нашему с&nbsp;вами взаимодействию&nbsp;- и&nbsp;мы очень хотим, чтобы вы помогали нам совершенствоваться и&nbsp;делать «Свободные кухни» только лучше и&nbsp;эффективнее. Всё, что мы с&nbsp;вами делаем сегодня направлено на&nbsp;развитие фуд-индустрии в&nbsp;нашей стране!<br>
+                              Поэтому мы благодарим вас за&nbsp;доверие вашего кулинарного творчества нашим кухням и&nbsp;будем очень рады услышать любую обратную связь, пожелания и&nbsp;предложения по&nbsp;адресу: <a href="mailto:freekitchensby@gmail.com">freekitchensby@gmail.com</a> или в&nbsp;соц.сетях нашей компании.<br>
+                              Спасибо за&nbsp;то, что вы с&nbsp;нами!
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="b-sec sec1 main-sec sec-contacts single-sec">
+            <!--.container-->
+            <div class="b-sec__bg b-sec__bg--white"></div>
+            <div class="sec__row main-sec__row">
+              <div class="sec__col2 main-sec__col">
+                <div class="col2__inner">
+                  <div class="main-sec__main">
+                    <div class="main-sec__img">
+                      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A91e9adab26950a3a4029c6bcda6065ec9b4cdd31f0add30511e0dfdf0f8f3776&amp;amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sec__col2 main-sec__col">
+                <div class="col2__inner">
+                  <h2 class="dark">Наши контакты</h2>
+                  <div class="contacts-block">
+                    <div class="contacts-block__item"><a class="address flex" href="{{ path('site.other-page', {'path': 'contacts'}) }}" target="_blank">
+                        <div class="contacts-block__icon flex">
+                          <svg class="icon icon-address ">
+                            <use xlink:href="static/images/sprite/symbol/sprite.svg#address"></use>
+                          </svg>
+                        </div>
+                        <div class="contacts-block__name">220012, г.&nbsp;Минск, ул.&nbsp;Толбухина,&nbsp;4</div></a></div>
+                    <div class="contacts-block__item"><a class="tel flex" href="tel:+375293696833" target="_blank">
+                        <div class="contacts-block__icon flex">
+                          <svg class="icon icon-phone ">
+                            <use xlink:href="static/images/sprite/symbol/sprite.svg#phone"></use>
+                          </svg>
+                        </div>
+                        <div class="contacts-block__name nowrap">+375 (29) 369-68-33</div></a></div>
+                    <div class="contacts-block__item"><a class="mail flex" href="mailto:freekitchensby@gmail.com" target="_blank">
+                        <div class="contacts-block__icon flex">
+                          <svg class="icon icon-mail ">
+                            <use xlink:href="static/images/sprite/symbol/sprite.svg#mail"></use>
+                          </svg>
+                        </div>
+                        <div class="contacts-block__name">freekitchensby@gmail.com</div></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="b-sec__bg b-sec__bg_darkgray"></div><a name="a-footer"></a>
+        <div class="container">
+          <div class="footer__row flex">
+            <div class="footer__col">
+              <div class="footer__left flex">
+                <div class="footer__logo"><img src="static/images/png/logo-footer.png" alt="logo">
+                  <div class="logo-title">Свободные<br>кухни</div>
+                </div>
+                <div class="contacts-footer contacts-block">
+                  <div class="contacts-footer__item contacts-block__item"><a class="address flex" href="{{ path('site.other-page', {'path': 'contacts'}) }}" target="_blank">
+                      <div class="contacts-footer__icon contacts-block__icon flex">
+                        <svg class="icon icon-address ">
+                          <use xlink:href="static/images/sprite/symbol/sprite.svg#address"></use>
+                        </svg>
+                      </div>
+                      <div class="contacts-footer__name contacts-block__name">220012, г.&nbsp;Минск, ул.&nbsp;Толбухина,&nbsp;4</div></a></div>
+                  <div class="contacts-footer__item contacts-block__item"><a class="tel flex" href="tel:+375293696833" target="_blank">
+                      <div class="contacts-footer__icon contacts-block__icon flex">
+                        <svg class="icon icon-phone ">
+                          <use xlink:href="static/images/sprite/symbol/sprite.svg#phone"></use>
+                        </svg>
+                      </div>
+                      <div class="contacts-footer__name contacts-block__name nowrap">+375 (29) 369-68-33</div></a></div>
+                  <div class="contacts-footer__item contacts-block__item"><a class="mail flex" href="mailto:freekitchensby@gmail.com" target="_blank">
+                      <div class="contacts-footer__icon contacts-block__icon flex">
+                        <svg class="icon icon-mail ">
+                          <use xlink:href="static/images/sprite/symbol/sprite.svg#mail"></use>
+                        </svg>
+                      </div>
+                      <div class="contacts-footer__name contacts-block__name">freekitchensby@gmail.com</div></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__col">
+              <div class="menu-soc-wrap flex">
+                <div class="menu-footer footer-content">
+                  <div class="footer-title">Компания</div>
+                  <ul class="menu-footer__list">
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="#a-top">О нас</a></li>
+                    <li class="menu-footer__item"><a class="menu-footer__link" href="{{ path('site.other-page', {'path': 'contacts'}) }}">Контакты</a></li>
+                    <li class="menu-footer__item"><a class="menu-footer__link popup-open" href="#modal">Помощь</a></li>
+                  </ul>
+                </div>
+                <div class="social-footer footer-content">
+                  <div class="footer-title">Социальные сети</div>
+                  <div class="social-footer__item contacts-block__item"><a class="instagram flex" href="https://www.instagram.com/freekitchens_net/" target="_blank">
+                      <div class="social-footer__icon contacts-block__icon flex">
+                        <svg class="icon icon-instagram ">
+                          <use xlink:href="static/images/sprite/symbol/sprite.svg#instagram"></use>
+                        </svg>
+                      </div>
+                      <div class="social-footer__name contacts-block__name">Instagram</div></a></div>
+                  <div class="social-footer__item contacts-block__item"><a class="facebook flex" href="https://www.facebook.com/Свободные-кухни-105192655333061" target="_blank">
+                      <div class="social-footer__icon contacts-block__icon flex">
+                        <svg class="icon icon-facebook ">
+                          <use xlink:href="static/images/sprite/symbol/sprite.svg#facebook"></use>
+                        </svg>
+                      </div>
+                      <div class="social-footer__name contacts-block__name">Facebook</div></a></div>
+                  <div class="social-footer__item contacts-block__item"><a class="vk flex" href="https://vk.com/public209074027" target="_blank">
+                      <div class="social-footer__icon contacts-block__icon flex">
+                        <svg class="icon icon-vk ">
+                          <use xlink:href="static/images/sprite/symbol/sprite.svg#vk"></use>
+                        </svg>
+                      </div>
+                      <div class="social-footer__name contacts-block__name">VK</div></a></div>
+                  <div class="social-footer__item contacts-block__item"><a class="youtube flex" href="https://www.youtube.com/" target="_blank">
+                      <div class="social-footer__icon contacts-block__icon flex">
+                        <svg class="icon icon-youtube ">
+                          <use xlink:href="static/images/sprite/symbol/sprite.svg#youtube"></use>
+                        </svg>
+                      </div>
+                      <div class="social-footer__name contacts-block__name">Youtube</div></a></div>
+                  <div class="social-footer__item contacts-block__item"><a class="telegram flex" href="https://t.me/freekitchens_net" target="_blank">
+                      <div class="social-footer__icon contacts-block__icon flex">
+                        <svg class="icon icon-telegram ">
+                          <use xlink:href="static/images/sprite/symbol/sprite.svg#telegram"></use>
+                        </svg>
+                      </div>
+                      <div class="social-footer__name contacts-block__name">Telegram</div></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">© 2020 Свободные кухни. All rights reserved</div>
+        </div>
+      </footer>
+    </div>
+    <!--.modal-->
+    <!--.modal-window-wrapper-->
+    <div class="modal-window mfp-hide" id="modal">
+      <div class="modal-header__row">
+        <h4 class="modal__header">Заявка</h4>
+      </div>
+      <div class="modal__body">
+        <div class="descr modal__descr">Оставьте Ваши контакты и&nbsp;мы перезвоним и&nbsp;расскажем о&nbsp;нас в&nbsp;самое ближайшее время.</div>
+        <div class="form">
+          <form class="form__body" id="form" action="#">
+            <div class="form__item">
+              <label class="form__label" for="formName">Имя</label>
+              <input class="form__input _req" id="formName" type="text" name="name">
+            </div>
+            <div class="form__item">
+              <label class="form__label" for="formTel">Телефон</label>
+              <input class="form__input _req _tel" id="formTel" type="tel" name="tel" placeholder="+375">
+            </div>
+            <button class="button button_green button-send" type="submit">Отправить заявку</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal-status" id="modal-status">
+        <!--img(src="static/images/gif/success.gif" alt="success")-->
+      </div>
+    </div>
+    <!--.d-none-->
+    <!--    include ../../../dist/images/sprite.svg-->
+    <!----><a class="go-top go-top--js" href="#">
+      <svg class="icon icon-top ">
+        <use xlink:href="static/images/sprite/symbol/sprite.svg#top"></use>
+      </svg></a>
+    <script src="static/js/vendors/jquery-3.6.0.min.js"></script>
+    <!--script(src="static/js/vendors/svg4everybody.min.js")-->
+    <!--script(src="static/js/vendors/svg4everybody.legacy.min.js")-->
+    <script src="static/js/vendors/libs.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
