@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <title>Caffesta</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="static/css/styles.css">
+  </head>
+  <body>
+    <div class="wrapper flex-col">
+      <header class="header flex">
+        <div class="container flex">
+          <div class="logo flex"><img src="static/images/svg/logo.svg" alt="logo"><a class="logo-title" href="index.html">Caffesta</a></div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <section class="sec-register">
+            <div class="descr descr-top">Введите Ваши данные<br>для регистрации</div>
+            <div class="form">
+              <form class="form__body" id="form" action="#">
+                <div class="form__item">
+                  <input class="form__input data" id="formTel" type="tel" name="tel" placeholder="+375000000000">
+                  <svg class="icon icon-phone ">
+                    <use xlink:href="static/images/sprite/symbol/sprite.svg#phone"></use>
+                  </svg>
+                </div>
+                <div class="form__item">
+                  <input class="form__input data" id="formEmail" type="email" name="email" placeholder="example@company.com">
+                  <svg class="icon icon-email ">
+                    <use xlink:href="static/images/sprite/symbol/sprite.svg#email"></use>
+                  </svg>
+                </div>
+                <div class="form__item">
+                  <input class="form__input data" id="formName" type="text" name="name" placeholder="name">
+                  <svg class="icon icon-user ">
+                    <use xlink:href="static/images/sprite/symbol/sprite.svg#user"></use>
+                  </svg>
+                </div>
+                <div class="form__item">
+                  <input class="form__input data" id="formSName" type="text" name="name" placeholder="surname">
+                  <svg class="icon icon-user ">
+                    <use xlink:href="static/images/sprite/symbol/sprite.svg#user"></use>
+                  </svg>
+                </div>
+                <div class="form__item">
+                  <input class="form__input data" id="formCalendar" type="date" name="name">
+                  <svg class="icon icon-calendar ">
+                    <use xlink:href="static/images/sprite/symbol/sprite.svg#calendar"></use>
+                  </svg>
+                </div>
+                <button class="button button_green type1 button-cont" type="submit" onclick="document.location='http://localhost:63342/caffesta-mobile-test/dist/confirm-1-page.html'">Продолжить</button>
+              </form>
+            </div>
+          </section>
+          <!--include ../components/sections/login/login-->
+          <!--include ../components/sections/confirm-login-1/confirm-login-1-->
+          <!--include ../components/sections/confirm-login-2/confirm-login-2-->
+          <!--include ../components/sections/main-page/main-page-->
+          <!--include ../components/sections/profile-1/profile-1-->
+          <!--include ../components/sections/profile-2/profile-2-->
+          <!--include ../components/sections/accumulation/accumulation-->
+        </div>
+      </main>
+      <!--include ../../components/footer/footer-->
+    </div>
+  </body>
+</html>
+<script src="static/js/vendors/jquery-3.6.0.min.js"></script>
+<script src="static/js/vendors/libs.js"></script>
+<script src="static/js/main.js"></script>
